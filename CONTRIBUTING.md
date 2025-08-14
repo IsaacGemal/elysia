@@ -8,7 +8,7 @@ In this guide you will get an overview of the contribution workflow from opening
 
 ## Setup Local Development Environment
 
-The Elysia.js repo is using [bun](https://bun.sh). Make sure you have the [latest version of bun](https://github.com/oven-sh/bun/releases) installed in your system. To run Elysia.js locally:
+The Elysia.js repo uses [bun](https://bun.sh). Make sure you have the [latest version of bun](https://github.com/oven-sh/bun/releases) installed in your system. To run Elysia.js locally:
 
 1. Clone this repository
 
@@ -18,9 +18,9 @@ The Elysia.js repo is using [bun](https://bun.sh). Make sure you have the [lates
 
 ### Unit Testing
 
-In Elysia.js, all of the test files are located inside the [`test/`](test/) directory. Unit testing are powered by [bun's test](https://github.com/oven-sh/bun/tree/main/packages/bun-internal-test).
+In Elysia.js, all of the test files are located inside the [`test/`](test/) directory. Unit testing is powered by [bun's test](https://github.com/oven-sh/bun/tree/main/packages/bun-internal-test).
 
--   `bun test` to run all the test inside the [`test/`](test/) directory
+-   `bun test` to run all the tests inside the [`test/`](test/) directory
 
 -   `bun test test/<test-file>.ts` to run a specific test
 
@@ -36,7 +36,7 @@ In Elysia.js, all of the test files are located inside the [`test/`](test/) dire
 
 -   If fixing a bug:
 
-    -   If you are resolving a special issue, please add the issues number in the PR's description.
+    -   If you are resolving a special issue, please add the issue number in the PR's description.
 
     -   Provide a detailed description of the bug in the PR. Live demo preferred.
 
